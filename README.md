@@ -1,6 +1,6 @@
 # windows-form-questionnaire-aleatoire-calcul-mental
 
-fonctionnement du programme windows form :
+fonctionnement du programme windows form : <br>
 -> propose a l'utilisateur de démarrer le questionnaire quand il est prêt avec le boutton GO! <br>
 -> pose 10 questions avec un opérateur aléatoire et des chiffres aléatoires (entre 0 et 20) en chronométrant l'utilisateur <br>
 -> quand l'utilisateur click sur le boutton valider la question suivante est posé automatiquement après <br>
