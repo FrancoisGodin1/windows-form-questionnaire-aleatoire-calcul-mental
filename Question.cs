@@ -52,8 +52,8 @@ namespace TestScholaNova
         private static List<Division> GetDisvisionsEntieres()
         {
             List<Division> listDiv = new List<Division>();
-            for (int i=1;i<20;i++)
-                for (int j = 1; j < 20; j++)
+            for (int i=1; i<20; i++)
+                for (int j=1; j<20; j++)
                     if (i != j && i % j == 0)
                     {
                         var div = new Division { nb1 = i, nb2 = j };
