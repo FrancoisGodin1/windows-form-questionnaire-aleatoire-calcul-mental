@@ -7,12 +7,12 @@ namespace TestScholaNova
 {
    public  class Question
     {
-        int nb1;
-        int nb2;
-        char operateur;
-        Random _random = new Random();
-        static List<char> _lesOperateurs = new List<char> { '+', '-', '/', '*' };
-        static List<Division> _divisionsEntieres = GetDisvisionsEntieres();
+        private int nb1;
+        private int nb2;
+        private char operateur;
+        private Random _random = new Random();
+        private static List<char> _lesOperateurs = new List<char> { '+', '-', '/', '*' };
+        private static List<Division> _divisionsEntieres = GetDisvisionsEntieres();
 
         public Question()
         {
